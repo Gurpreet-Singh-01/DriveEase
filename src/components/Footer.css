@@ -1,0 +1,126 @@
+.footer-container {
+  max-width: 1519px;
+  background-color: #0c0a0ad4;
+  width: 100%;
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  margin: 0 auto;
+  color: white;
+}
+
+.footer-wrapper {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
+  gap: 20px;
+}
+
+.footer-section {
+  color: white;
+  margin: 2px;
+}
+.footer-section-links{
+    font-weight: 100;
+}
+
+.footer-section-links h2{
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.footer-section-links ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+
+}
+
+.footer-section-1 h1 {
+  font-weight: 500;
+}
+.footer-section-1 p {
+  font-weight: 300;
+  padding-top: 2.5rem;
+  padding-bottom: 1.2rem;
+}
+
+.footer-letterHead {
+    display: flex;             
+    align-items: center;       
+    justify-content: space-between; 
+    height: 2.25rem;
+    width: 17.5rem;
+    background-color: rgb(59, 57, 57);
+    padding: 0 0.5rem;         
+    border-radius: 4px;        
+  }
+  
+  .footer-letterHead input[type="email"] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    outline: none;
+    padding: 5px 0;
+    width: 85%;
+  }
+
+  .footer-letterHead input[type="email"]::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+.footer-letterHead input[type="email"]:focus {
+    border-bottom: 1px solid white;
+    box-shadow: 0 1px 0 0 white;
+  }
+
+  .footer-letterHead i {
+    color: #fff;               
+    font-size: 1.2rem;         
+    cursor: pointer;          
+    transition: transform 0.3s ease;
+  }
+  
+  .footer-letterHead i:hover {
+    transform: scale(1.1);     
+  }
+  
+.footer-bottom {
+    margin-top: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0; 
+    align-items: center; 
+  }
+
+.footer-copy-rights {
+    display: flex;
+    align-items: center; 
+    color: #fff; 
+  }
+  
+  .footer-copy-rights i {
+    margin-right: 5px; 
+  }
+  .CR-text {
+    font-size: 14px; 
+  }
+
+  .footer-copy-rights {
+    display: flex;
+    align-items: center;
+    white-space: nowrap; 
+  }
+
+.footer-social-links ul{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-social-links ul li{
+    font-size: 1.5rem;
+}
+
+.footer-social-links ul li:hover{
+    cursor: pointer;
+}
